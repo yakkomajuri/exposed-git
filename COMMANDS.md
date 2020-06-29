@@ -44,7 +44,7 @@ Create a commit object with the changes made (and added!) since the previous com
 
 Create a new subdirectory inside ```objects/``` for the incoming file 
 
-```curl localhost:8000/.git/objects/f4/52d4085347400afa8751aae3a5184d73113628 --output ./.git/objects/f4/52d4085347400afa8751aae3a5184d73113628```
+```curl localhost:8000/.git/objects/<HASH[0:2]>/<HASH[2:]> --output ./.git/objects/<HASH[0:2]>/<HASH[2:]>```
 
 Download the file with specified hash from the server and add it in its respective location in the local repository
 
