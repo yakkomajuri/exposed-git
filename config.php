@@ -4,5 +4,5 @@
         exit;
     }
     define('DB_USER', 'admin');
-    define('DB_PASSWORD', 'password');
+    define('DB_PASSWORD', 'password123');
 ?>
